@@ -1,0 +1,23 @@
+{
+  "name": "bowman-angular",
+  "version": "0.0.1",
+  "description": "Angular plugin for Bowman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "bowman": "*"
+  },
+  "keywords": [
+    "bowman",
+    "bowmanplugin",
+    "angular"
+  ],
+  "author": "Derek Jones <contact.derekjones@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.0.0",
+    "q": "~1.0.1"
+  }
+}
