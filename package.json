@@ -1,6 +1,6 @@
 {
   "name": "bowman-angular",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Angular plugin for Bowman",
   "main": "index.js",
   "scripts": {
