@@ -4,14 +4,15 @@
   "description": "Angular plugin for Bowman",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\" && exit 0"
   },
   "peerDependencies": {
     "bowman": "*"
   },
   "keywords": [
     "bowman",
-    "bowmanplugin",
+    "bowman-plugin",
+    "bower",
     "angular"
   ],
   "author": "Derek Jones <contact.derekjones@gmail.com>",
@@ -19,5 +20,14 @@
   "dependencies": {
     "lodash": "^3.0.0",
     "q": "~1.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekrjones/bowman-angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/derekrjones/bowman-angular/issues"
+  },
+  "homepage": "https://github.com/derekrjones/bowman-angular"
 }
