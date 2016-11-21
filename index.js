@@ -35,6 +35,7 @@ function angularize(root){
 // ensure angular is a dependency if component contains angular.module
 function addDependency(root, mods){
     _.each(mods, function(modules, pkgName){
+        if(pkgName === 'angular') return;
         var pkg = root.packages[pkgName];
         if(_.size(modules) && !_.has(pkg.dependencies, 'angular')){
             pkg.dependencies = pkg.dependencies || {};
